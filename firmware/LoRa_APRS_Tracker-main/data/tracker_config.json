@@ -1,0 +1,133 @@
+{
+	"beacons": [
+		{
+			"callsign": "TI0TEC3-7",
+			"symbol": "[",
+			"overlay": "/",
+			"micE": "",
+			"comment": "",
+			"smartBeacon": {
+				"active": true,
+				"slowRate": 120,
+				"slowSpeed": 3,
+				"fastRate": 60,
+				"fastSpeed": 15,
+				"minTxDist": 50,
+				"minDeltaBeacon": 20,
+				"turnMinDeg": 12,
+				"turnSlope": 60
+			}			
+		},
+		{
+			"callsign": "TI0TEC3-7",
+			"symbol": ">",
+			"overlay": "/",
+			"micE": "",
+			"comment": "",
+			"smartBeacon": {
+				"active": true,
+				"slowRate": 120,
+				"slowSpeed": 10,
+				"fastRate": 60,
+				"fastSpeed": 70,
+				"minTxDist": 100,
+				"minDeltaBeacon": 12,
+				"turnMinDeg": 10,
+				"turnSlope": 80
+			}
+		},
+		{
+			"callsign": "TI0TEC3-7",
+			"symbol": "b",
+			"overlay": "/",
+			"micE": "",
+			"comment": "",
+			"smartBeacon": {
+				"active": true,
+				"slowRate": 120,
+				"slowSpeed": 5,
+				"fastRate": 60,
+				"fastSpeed": 40,
+				"minTxDist": 100,
+				"minDeltaBeacon": 12,
+				"turnMinDeg": 12,
+				"turnSlope": 60
+			}
+		}
+	],
+	"display": {
+		"showSymbol": true,
+		"ecoMode": false,
+		"timeout": 4,
+		"turn180" : false
+    },
+	"other": {
+		"simplifiedTrackerMode": false,
+		"sendCommentAfterXBeacons": 10,
+		"path": "WIDE1-1",
+		"nonSmartBeaconRate": 15,
+		"rememberStationTime": 30,
+		"maxDistanceToTracker": 30, 
+		"standingUpdateTime": 15,
+		"sendAltitude": true,
+		"sendBatteryInfo": false,
+		"bluetoothType": 1,
+		"bluetoothActive": true,
+		"disableGPS": false
+	},
+	"winlink": {
+		"password": "ABCDEF"
+	},
+	"bme": {
+		"active": false,
+		"sendTelemetry": false,
+		"heightCorrection": 0
+	},
+	"notification": {
+		"ledTx": false,
+		"ledTxPin": 13,
+		"ledMessage": false,
+		"ledMessagePin": 2,
+		"ledFlashlight": false,
+		"ledFlashlightPin": 14,
+		"buzzerActive": false,
+		"buzzerPinTone": 33,
+		"buzzerPinVcc": 25,
+		"bootUpBeep": false,
+		"txBeep": true,
+		"messageRxBeep": false,
+		"stationBeep": false,
+		"lowBatteryBeep": false,
+		"shutDownBeep": false
+	},
+	"lora": [
+		{
+			"frequency": 433775000,
+			"spreadingFactor": 12,
+			"signalBandwidth": 125000,
+			"codingRate4": 5,
+			"power": 20
+		},
+		{
+			"frequency": 434855000,
+			"spreadingFactor": 9,
+			"signalBandwidth": 125000,
+			"codingRate4": 7,
+			"power": 20
+		},
+		{
+			"frequency": 439912500,
+			"spreadingFactor": 12,
+			"signalBandwidth": 125000,
+			"codingRate4": 5,
+			"power": 20
+		}
+	],
+	"pttTrigger": {
+		"active": false,
+		"io_pin": 4,
+		"preDelay": 0,
+		"postDelay": 0,
+		"reverse": false
+	}
+}
