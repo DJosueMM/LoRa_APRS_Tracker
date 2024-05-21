@@ -1,4 +1,5 @@
-# Richonguzman / CA2RXU LoRa APRS Tracker/Station
+# David Medina - Julian Ramirez - Marco Rojas / CA2RXU LoRa APRS Tracker/Station
+## Basado en el repositorio de Richonguzman
 
 This firmware is for using ESP32 based boards with LoRa Modules and GPS to live in the APRS world.
 
