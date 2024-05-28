@@ -9,11 +9,6 @@ __(NOTE: To use Tx/Rx capabilities of this tracker you should have also an Tx/Rx
 
 ____________________________________________________
 
-## You can support this project to continue to grow:
-
-[<img src="https://github.com/richonguzman/LoRa_APRS_Tracker/blob/main/images/github-sponsors.png">](https://github.com/sponsors/richonguzman)     [<img src="https://github.com/richonguzman/LoRa_APRS_Tracker/blob/main/images/paypalme.png">](http://paypal.me/richonguzman)
-
-____________________________________________________
 
 - Tracker with complete MENU !!! (see Wiki to know how to access it)
     - Read, Write and Delete Messages (with I2C Keyboard or Phone).
@@ -130,4 +125,3 @@ ____________________________________________________
 - https://github.com/dl9sau/TTGO-T-Beam-LoRa-APRS : Thomas - DL9SAU for the Kiss <> TNC2 lib
 ____________________________________________________
 
-# Hope You Enjoy this, 73 !!  CA2RXU , Valparaiso, Chile
