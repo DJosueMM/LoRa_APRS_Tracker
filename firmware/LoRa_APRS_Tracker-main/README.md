@@ -1,5 +1,5 @@
 # David Medina - Julian Ramirez - Marco Rojas / TI0TEC3 LoRa APRS Tracker/Station
-## Basado en el repositorio de Richonguzman
+## Basado en el repositorio de Richonguzman https://github.com/richonguzman/LoRa_APRS_Tracker
 
 This firmware is for using ESP32 based boards with LoRa Modules and GPS to live in the APRS world.
 
