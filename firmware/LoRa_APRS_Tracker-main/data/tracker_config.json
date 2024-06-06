@@ -71,7 +71,7 @@
 		"standingUpdateTime": 15,
 		"sendAltitude": true,
 		"sendBatteryInfo": false,
-		"bluetoothType": 1,
+		"bluetoothType": 0,
 		"bluetoothActive": true,
 		"disableGPS": false
 	},

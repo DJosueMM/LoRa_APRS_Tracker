@@ -80,7 +80,7 @@ namespace Utils {
             lastTx = millis() - lastTxTime;
             uint32_t statusTx = millis() - statusTime;
             if (statusTx > 10 * 60 * 1000 && lastTx > 10 * 1000) {
-                LoRa_Utils::sendNewPacket(APRSPacketLib::generateStatusPacket(currentBeacon->callsign, "APLRT1", Config.path, "https://github.com/richonguzman/LoRa_APRS_Tracker " + versionDate));
+                LoRa_Utils::sendNewPacket(APRSPacketLib::generateStatusPacket(currentBeacon->callsign, "APLRT1", Config.path, "https://github.com/DJosueMM/LoRa_APRS_Tracker" + versionDate));
                 statusState = false;
                 lastTxTime = millis();
             }
